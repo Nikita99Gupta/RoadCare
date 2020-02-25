@@ -1,0 +1,38 @@
+{
+  "name": "road-care",
+  "version": "0.0.1",
+  "main": "main.js",
+  "scripts": {
+    "start": "concurrently \"roslaunch rosbridge_server rosbridge_websocket.launch\" \"sleep 5 && electron .\" "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "concurrently": "^5.0.0",
+    "csv-write-stream": "^2.0.0",
+    "csv-writer": "^1.3.0",
+    "electron-nunjucks": "^1.0.3",
+    "electron-prebuilt": "^1.4.13",
+    "jquery": "^3.4.1",
+    "line-reader": "^0.4.0",
+    "npm-run-all": "^4.1.5",
+    "plotty": "^0.3.1",
+    "popper.js": "^1.14.7",
+    "requirejs": "^2.3.6",
+    "roslib": "^1.0.1"
+  },
+  "devDependencies": {
+    "electron": "^3.1.8",
+    "electron-rebuild": "^1.8.4"
+  },
+  "description": "Faster Emergency Care System",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikita99Gupta/RoadCare.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nikita99Gupta/RoadCare/issues"
+  },
+  "homepage": "https://github.com/Nikita99Gupta/RoadCare#readme"
+}
